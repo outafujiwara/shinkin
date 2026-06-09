@@ -1,0 +1,54 @@
+body{
+ text-align:center;
+ font-family:Arial;
+}
+
+#fixation{
+ font-size:100px;
+ margin-top:200px;
+}
+
+#stimulusArea{
+  display:none;
+}
+
+.images{
+  display:flex;
+  justify-content:center;
+  gap:100px;
+  margin-top:50px;
+}
+
+.images img{
+  width:300px;
+  height:auto;
+}
+
+#buttons{
+  margin-top:40px;
+}
+
+button{
+  font-size:25px;
+  margin:10px;
+  padding:10px 20px;
+}
+
+#instructionScreen {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.instructionBox {
+  width: 70%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+#startPractice {
+  font-size: 24px;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
